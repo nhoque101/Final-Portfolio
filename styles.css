@@ -346,6 +346,30 @@ h2 {
     color: white;
 }
 
+.visit-button {
+    position: absolute;
+    bottom: 20px;
+    right: 24px;
+    background: var(--gradient-primary);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    opacity: 0.9;
+}
+
+.visit-button:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-sm);
+    opacity: 1;
+}
+
+.visit-button i {
+    font-size: 0.8rem;
+}
+
 
 .contact {
     padding: 100px 0;
